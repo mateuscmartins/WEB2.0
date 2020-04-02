@@ -1,0 +1,236 @@
+/**Configurações iniciais**/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /**border: 1px red solid;**/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+/**Estrutura do cabecalho**/
+
+header {
+    background-image: url(imagens/fundo.png);
+    height: 233px;
+}
+
+#container-cabecalho {
+    width: 70%;
+    margin: 0 auto;
+    background-image: url(imagens/detalhe-topo.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 200px;
+    /**border: 1px red solid;**/
+
+}
+
+#logo {
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+} 
+
+#menu-navegacao {
+    float: left;
+}
+
+#menu-navegacao ul {
+    background-color: #b10333;
+    color: white;    
+    float: left;
+}
+
+#menu-navegacao li {
+    float: left;
+    list-style-type: none;
+}
+
+#menu-navegacao a {
+    display: block;
+    padding: 10px 2em;
+    text-decoration: none;
+    color: white;
+    background-image: url(imagens/divisor.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+#menu-navegacao ul.ultimo a {
+    background: none;
+}
+
+#menu-navegacao a:hover {
+    color: black;
+}
+
+/**Estrutura do conteúdo**/
+
+#container-conteudo {
+    width: 75%;
+    margin: 10px auto;
+}
+
+#primario {
+    width: 350px;
+    margin: 0px 0px 20px 220px;
+    float: left;
+}
+
+#secundario {
+    width: 350px;
+    margin: 0px 0px 20px 15px;
+    float: left;
+}
+
+#lateral {
+    width: 200px;
+    margin: 0px 0px 20px -930px; 
+    float: left;
+}
+
+
+#entrevistas, #ultima-entrevista, #destaque, #news, #mundo, #noticias-recentes {
+    background-image: url(imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+
+.menu-entrevistas, .form, #container-recentes, #conteudo-destaque, .conteudo, #container-mundo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.titulo {
+    background: #294c71;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.subtitulo {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 14px;
+    padding: 3px;
+    font-weight: bold;
+    background: #b10333;
+    color: #fff;
+}
+
+.foto-grande {
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #dfdfdf;
+}
+
+
+#lateral ul li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#lateral ul li:hover {
+    background: url(imagens/marcador.png) no-repeat left;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+label {
+    cursor: pointer;
+}
+
+input {
+    font-size: 14px;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+}
+
+.foto-pequena {
+    width: 80px;
+    float: left;
+    margin: 5px;
+    border: 2px solid #dfdfdf;
+}
+
+.conteudo-recentes li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc ;
+    height: 65px;
+}
+
+.conteudo-recentes li:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.conteudo-recentes li a {
+    text-decoration: none;
+}
+
+.conteudo-recentes li a h2{
+    font-size: 16px;
+    color: #3e7ab9;
+}
+
+.conteudo-recentes li a p{
+    font-size: 12px;
+}
+
+
+.conteudo-mundo li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc ;
+    height: 65px;
+}
+
+.conteudo-mundo li:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.conteudo-mundo li a {
+    text-decoration: none;
+}
+
+.conteudo-mundo li a h2{
+    font-size: 16px;
+    color: #3e7ab9;
+}
+
+.conteudo-mundo li a p{
+    font-size: 12px;
+}
+
+/**Definição do rodapé**/
+
+footer {
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}

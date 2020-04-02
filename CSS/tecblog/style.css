@@ -1,0 +1,129 @@
+
+
+body {
+    font-size: 1em;
+    font-family:  'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+    padding: 0px;
+}
+
+.container{
+    margin: -10px;
+}
+
+.cabecalho {
+    background-color: #f7b600;
+    text-align: center;
+    height: 130px;
+    padding-top: 60px;
+}
+
+#titulo {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#menu {
+    margin-top: 20px;
+}
+
+#tec{
+    color: rgb(71, 71, 76);
+}
+
+#blog{
+    color: white;
+}
+
+#menu a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 18px;
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+#menu a:hover {
+    background-color: white;
+    color: #f7b600;
+}
+
+.principal {
+    width: 680px;
+    float: left;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+.conteudo {
+    background-color: white;
+    width: 640px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.titulo-conteudo {
+    color: #f7b600;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.data-conteudo {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.quadros {
+    width: 260px;
+    float: left;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.recentes {
+    background-color: white;
+    width: 250px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.categorias {
+    background-color: white;
+    width: 250px;
+    margin-bottom: 15px;
+    padding: 5px;
+} 
+
+
+.titulo-caixa {
+    background-color: rgb(194, 194, 199);
+    color: rgb(71, 71, 76);
+    margin: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.conteudo-caixa {
+    margin: 0px 5px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.conteudo-caixa p {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #f7b600;
+}
+
+#rodape {
+    clear: both;
+}
