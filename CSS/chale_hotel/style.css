@@ -21,6 +21,17 @@ body {
 ul{
     list-style: none;
 }
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
 /**Configurações do cabeçalho**/
 
 header{
@@ -139,7 +150,6 @@ width: 90%;
 }
 
 
-
 /**Configurações do conteúdo lateral**/
 
 #container-lateral {
@@ -149,8 +159,41 @@ width: 90%;
    padding: 20px 0px;
 }
 
+
+#beneficios li {
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+
+#beneficios li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
+
+#beneficios li a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #000;
+}
+
+
+#beneficios li a h3 {
+    font-size: 1.1em;  
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(./imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+
 /**Configurações do rodapé**/
 
 footer {
     clear: both;
+    padding: 16px;
+    background: #fff url(./imagens/bg-rodape.png) repeat-x top;
 }
