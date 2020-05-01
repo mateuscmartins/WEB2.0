@@ -1,0 +1,48 @@
+<!-- Estrutura do jogo Mata-Mosquito - Curso Desenvolvimento Web Completo 2020 (Udemy) -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mata-Mosquito</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+
+</head>
+
+<body onresize="dimensionarTela()">
+
+    <!-- Definição do painel de vidas e cronometro -->
+    <div class="painel">
+
+        <div class="vidas">
+            <img src="../imagens/coracao_cheio.png" id="vida1">
+            <img src="../imagens/coracao_cheio.png" id="vida2">
+            <img src="../imagens/coracao_cheio.png" id="vida3">
+        </div>
+
+        <div class="cronometro">
+            Tempo restante: <span id="cronometro"></span>
+        </div>
+    </div>
+    <!----------------------------------------------->
+
+
+
+    <script>
+        
+        //Definição da mecânica de surgimento do mosquito na tela
+
+        var criaMosquito = setInterval(function(){
+            posicaoAleatoria() //Função que define a posição que o mosquito aparecerá na tela
+        }, intervaloMosquito)
+        
+        //Definição do cronometro
+        document.getElementById('cronometro').innerHTML = tempo       
+
+    </script>
+
+</body>
+
+</html>
